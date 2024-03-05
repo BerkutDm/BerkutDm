@@ -1,0 +1,63 @@
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const squareRoot = num => Math.sqrt(num);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const randomNumber = getRandomNumber();
+const sum = (a, b) => a + b;
+true / true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+orange / false
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+banana
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const capitalizeString = str => str.toUpperCase();
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+grape
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+grape
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const variableName = getRandomNumber();
+const randomNumber = getRandomNumber();
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const removeDuplicates = array => Array.from(new Set(array));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+61 + false
+let result = performOperation(getRandomNumber(), getRandomNumber());
+84 * kiwi
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+orange
+
+const sum = (a, b) => a + b;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
