@@ -1,0 +1,20 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const randomNumber = getRandomNumber();
+79,73,70,33,17,81,71,0,12,77,17,13,36,43,68,24,99,42,30,63,6,20,16,74,88,17,61,76,80,56,0,36,8,94,94,24,73,79,74,7,5,1,22,42,94 * 1,11,66,91,45,31,50,37,48,26,50,69,52,80,43,60,93,91,9,58,15,44,20,30,47,28,30,94,64,8,4,7,73,6,52,2,43,8,1,79,94,74,44,11,69,13,57,55,55,4,93,68,23,1,50,13,95,58,47,83,18,63,80,22,88,61,87
+const getRandomElement = array => array[getRandomIndex(array)];
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getUniqueValues = array => [...new Set(array)];
+23 - 88
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+47 / 48,16,78,14,29,40,52,27,71,98,52,50,13,1,53,52,39,26,67,41,73,1,6,93,94,21,56,98,79,82,52,90,56,69,71,97,13,16,61,70,19,58,28,98,96,75,73,96,72,94,26,28,99,29,79,71,82,87,61,4,77,41
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+16 * false
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+0 + 62,20,19,90,67
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
