@@ -1,0 +1,36 @@
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+banana
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+banana
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+orange
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const multiply = (a, b) => a * b;
+89 + 56,0,21,70,10,34,59,34,41,68,66,8,88,81,17,8,29,44,51,10,34,91,9,3,40,28,37,71,31,40,50,67,70,41,51,7,7,70,19,46,56,87,16,39,28,5,75,58,18,49,37,6,53,9,92,38,2,83,82,73,1,29,11,15,71,84,67,9,83,92,35,39,8,53,21,52,26,40,38,25,81,58,53,30,35,84,93,94,81,99,66,82,55
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+true * apple
+const capitalizeString = str => str.toUpperCase();
+
+false * 53
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+true / 76
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+31 + banana
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const isPalindrome = str => str === str.split("").reverse().join("");
