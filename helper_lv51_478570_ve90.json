@@ -1,0 +1,23 @@
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+banana * false
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+93 + true
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getUniqueValues = array => [...new Set(array)];
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const reverseString = str => str.split("").reverse().join("");
+16 / 69,92,11,56,36,81,88,14,71,61,44,24,27,49,87,43,93,64,54,79,8,85,27,62,7,3,24,96,72,97,54,55,6,11,81,0,52,68,25,52,67,52,6,67,58,79,27,85,50,14,22,82,42,41,59,32,64,55,71
+const sum = (a, b) => a + b;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+grape - true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
